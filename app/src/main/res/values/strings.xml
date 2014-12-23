@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyHome</string>
+    <string name="login_button">Login to SmartThings</string>
+    <string name="action_settings">Settings</string>
+    <string name="instruction"><b>Instructions</b>\n Say "My Home" to wake up recognition \n Upon beep, speak command to be performed \n Double beep will indicate end of recognition \n Specify device by number or name as in list</string>
+</resources>

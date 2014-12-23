@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/speechText"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#e4e4e4"
+        android:gravity="center"
+        android:text="Slide to Start/Stop Listening"
+        />
+
+    <Switch
+        android:id="@+id/listenSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textOn="Listening"
+        android:textOff="Not Listening"
+        android:checked="false"/>
+
+    <TextView
+        android:id="@+id/deviceList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/instruction"
+        android:layout_marginTop="20dp"
+        android:background="#e4e4e4"
+        android:gravity="center"
+        />
+
+</LinearLayout>
